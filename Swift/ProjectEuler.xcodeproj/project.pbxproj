@@ -51,6 +51,11 @@
 		2C231CF11C20DDF600718281 /* 0011Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C231CF01C20DDF600718281 /* 0011Tests.swift */; settings = {ASSET_TAGS = (); }; };
 		2C231CF91C20E0D400718281 /* EquatableTuples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C231CF81C20E0D400718281 /* EquatableTuples.swift */; settings = {ASSET_TAGS = (); }; };
 		2C92B6BF1C22CBA7009A0A68 /* Array2DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6BE1C22CBA7009A0A68 /* Array2DTests.swift */; settings = {ASSET_TAGS = (); }; };
+		2C92B6C11C22CE57009A0A68 /* 0012.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6C01C22CE57009A0A68 /* 0012.swift */; settings = {ASSET_TAGS = (); }; };
+		2C92B6C31C22D1CF009A0A68 /* TriangleNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6C21C22D1CF009A0A68 /* TriangleNumbers.swift */; settings = {ASSET_TAGS = (); }; };
+		2C92B6C51C22D29D009A0A68 /* 0012Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6C41C22D29D009A0A68 /* 0012Tests.swift */; settings = {ASSET_TAGS = (); }; };
+		2C92B6CC1C22E14E009A0A68 /* getPrimeFactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6CB1C22E14E009A0A68 /* getPrimeFactors.swift */; settings = {ASSET_TAGS = (); }; };
+		2C92B6CE1C22E469009A0A68 /* getNumberOfDivisors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6CD1C22E469009A0A68 /* getNumberOfDivisors.swift */; settings = {ASSET_TAGS = (); }; };
 		2CBA5EEE1C21AF4D00E1DF98 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA5EED1C21AF4D00E1DF98 /* Array2D.swift */; settings = {ASSET_TAGS = (); }; };
 		2CBA5EF11C21AF5C00E1DF98 /* init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA5EF01C21AF5C00E1DF98 /* init.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -111,6 +116,11 @@
 		2C231CF01C20DDF600718281 /* 0011Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 0011Tests.swift; sourceTree = "<group>"; };
 		2C231CF81C20E0D400718281 /* EquatableTuples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquatableTuples.swift; sourceTree = "<group>"; };
 		2C92B6BE1C22CBA7009A0A68 /* Array2DTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2DTests.swift; sourceTree = "<group>"; };
+		2C92B6C01C22CE57009A0A68 /* 0012.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 0012.swift; sourceTree = "<group>"; };
+		2C92B6C21C22D1CF009A0A68 /* TriangleNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleNumbers.swift; sourceTree = "<group>"; };
+		2C92B6C41C22D29D009A0A68 /* 0012Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 0012Tests.swift; sourceTree = "<group>"; };
+		2C92B6CB1C22E14E009A0A68 /* getPrimeFactors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getPrimeFactors.swift; sourceTree = "<group>"; };
+		2C92B6CD1C22E469009A0A68 /* getNumberOfDivisors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getNumberOfDivisors.swift; sourceTree = "<group>"; };
 		2CBA5EED1C21AF4D00E1DF98 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		2CBA5EF01C21AF5C00E1DF98 /* init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = init.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -228,6 +238,8 @@
 				2C231C8C1C20D3CF00718281 /* largestPossibleFactor.swift */,
 				2C231C8D1C20D3CF00718281 /* largestPrimeFactor.swift */,
 				2C231CA01C20D42600718281 /* getPythagoreanTriplet.swift */,
+				2C92B6CB1C22E14E009A0A68 /* getPrimeFactors.swift */,
+				2C92B6CD1C22E469009A0A68 /* getNumberOfDivisors.swift */,
 			);
 			path = Int;
 			sourceTree = "<group>";
@@ -246,6 +258,7 @@
 			children = (
 				2C231C921C20D3CF00718281 /* FibonacciSequence.swift */,
 				2C231C931C20D3CF00718281 /* PrimeSequence.swift */,
+				2C92B6C21C22D1CF009A0A68 /* TriangleNumbers.swift */,
 			);
 			path = Sequences;
 			sourceTree = "<group>";
@@ -288,6 +301,7 @@
 			isa = PBXGroup;
 			children = (
 				2C231CEE1C20DD6800718281 /* 0011.swift */,
+				2C92B6C01C22CE57009A0A68 /* 0012.swift */,
 			);
 			path = "0011-0020";
 			sourceTree = "<group>";
@@ -296,6 +310,7 @@
 			isa = PBXGroup;
 			children = (
 				2C231CF01C20DDF600718281 /* 0011Tests.swift */,
+				2C92B6C41C22D29D009A0A68 /* 0012Tests.swift */,
 			);
 			path = "0011-0020";
 			sourceTree = "<group>";
@@ -447,7 +462,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C231C9F1C20D40800718281 /* isPalindromic.swift in Sources */,
+				2C92B6CE1C22E469009A0A68 /* getNumberOfDivisors.swift in Sources */,
 				2C231C941C20D3CF00718281 /* isEven.swift in Sources */,
+				2C92B6C11C22CE57009A0A68 /* 0012.swift in Sources */,
 				2C231CD31C20D8B800718281 /* 0007.swift in Sources */,
 				2C231CA11C20D42600718281 /* getPythagoreanTriplet.swift in Sources */,
 				2C231CD41C20D8B800718281 /* 0008.swift in Sources */,
@@ -459,6 +476,7 @@
 				2C231CCE1C20D8B800718281 /* 0002.swift in Sources */,
 				2C231CA51C20D47C00718281 /* product.swift in Sources */,
 				2C231C981C20D3CF00718281 /* isPrime.swift in Sources */,
+				2C92B6C31C22D1CF009A0A68 /* TriangleNumbers.swift in Sources */,
 				2C231CEF1C20DD6800718281 /* 0011.swift in Sources */,
 				2C231C951C20D3CF00718281 /* isMultipleOf.swift in Sources */,
 				2C231CAF1C20D5AD00718281 /* take.swift in Sources */,
@@ -478,6 +496,7 @@
 				2CBA5EEE1C21AF4D00E1DF98 /* Array2D.swift in Sources */,
 				2C231CCD1C20D8B800718281 /* 0001.swift in Sources */,
 				2C231C9C1C20D3CF00718281 /* FibonacciSequence.swift in Sources */,
+				2C92B6CC1C22E14E009A0A68 /* getPrimeFactors.swift in Sources */,
 				2CBA5EF11C21AF5C00E1DF98 /* init.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +517,7 @@
 				2C92B6BF1C22CBA7009A0A68 /* Array2DTests.swift in Sources */,
 				2C231CF11C20DDF600718281 /* 0011Tests.swift in Sources */,
 				2C231CE11C20D8C600718281 /* 0002Tests.swift in Sources */,
+				2C92B6C51C22D29D009A0A68 /* 0012Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -40,20 +40,6 @@ class Problem0011Tests: XCTestCase {
         ]
         self.testData = Array2D.init(self.data)
     }
-    
-//    func testGetHorizontals() {
-//        let arr = self.testData
-//        XCTAssertEqual(arr.getHorizontals()[0], self.data[0])
-//        XCTAssertEqual(arr.getVerticals()[0], [8, 49, 81, 52, 22, 24, 32, 67, 24, 21, 78, 16, 86, 19, 4, 88, 4, 20, 20, 1])
-//        XCTAssertEqual(arr.getLeadingDiagonal(), [8, 49, 31, 23, 51, 3, 67, 20, 97, 45, 3, 24, 44, 52, 26, 32, 40, 4, 5, 48])
-//        XCTAssertEqual(arr.getAllLeadingDiagonals()[19], arr.getLeadingDiagonal())
-//        XCTAssertEqual(arr.getTrailingDiagonal(), [8, 62, 13, 37, 28, 84, 54, 63, 78, 35, 94, 55, 7, 47, 35, 57, 73, 36, 73, 1])
-//        XCTAssertEqual(arr.getAllTrailingDiagonals()[0], [8])
-//        XCTAssertEqual(arr.getAllTrailingDiagonals()[1], [2, 49])
-//        XCTAssertEqual(arr.getAllTrailingDiagonals()[37], [54, 67])
-//        XCTAssertEqual(arr.getAllTrailingDiagonals()[38], [48])
-//        XCTAssertEqual(arr.getAllTrailingDiagonals()[19], arr.getTrailingDiagonal())
-//    }
 
 //    func testSample() {
 //        self.measureBlock {

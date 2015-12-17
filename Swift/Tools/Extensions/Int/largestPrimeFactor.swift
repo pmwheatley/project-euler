@@ -12,9 +12,11 @@ extension Int {
     
     func largestPrimeFactor() -> Int {
 
-        for factor in 2...self.largestPossibleFactor() {
-            if self.isMultipleOf(factor) {
-                return (self/factor).largestPrimeFactor()
+        if self > 1 {
+            for factor in 2...self.largestPossibleFactor() {
+                if self.isMultipleOf(factor) {
+                    return (self/factor).largestPrimeFactor()
+                }
             }
         }
 
