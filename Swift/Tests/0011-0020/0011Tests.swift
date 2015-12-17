@@ -40,12 +40,6 @@ class Problem0011Tests: XCTestCase {
         ]
         self.testData = Array2D.init(self.data)
     }
-
-//    func testSample() {
-//        self.measureBlock {
-//            XCTAssertEqual(Problem0011.init().solve(self.testData, start: (8, 6), end: (11, 9)), 1788696)
-//        }
-//    }
     
     func testSolution() {
         self.measureBlock {
