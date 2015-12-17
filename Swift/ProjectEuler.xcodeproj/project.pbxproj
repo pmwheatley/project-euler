@@ -62,6 +62,9 @@
 		2C92B6D71C2309C5009A0A68 /* String+addNumeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6D61C2309C5009A0A68 /* String+addNumeric.swift */; settings = {ASSET_TAGS = (); }; };
 		2C92B6DA1C230AC6009A0A68 /* ArrayStringLiteralConvertible+sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6D91C230AC6009A0A68 /* ArrayStringLiteralConvertible+sum.swift */; settings = {ASSET_TAGS = (); }; };
 		2C92B6DC1C230E6C009A0A68 /* String+subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6DB1C230E6C009A0A68 /* String+subscript.swift */; settings = {ASSET_TAGS = (); }; };
+		2C92B6DE1C230F70009A0A68 /* 0014.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6DD1C230F70009A0A68 /* 0014.swift */; settings = {ASSET_TAGS = (); }; };
+		2C92B6E01C230FCD009A0A68 /* 0014Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6DF1C230FCD009A0A68 /* 0014Tests.swift */; settings = {ASSET_TAGS = (); }; };
+		2C92B6E21C230FE2009A0A68 /* CollatzSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6E11C230FE2009A0A68 /* CollatzSequence.swift */; settings = {ASSET_TAGS = (); }; };
 		2CBA5EEE1C21AF4D00E1DF98 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA5EED1C21AF4D00E1DF98 /* Array2D.swift */; settings = {ASSET_TAGS = (); }; };
 		2CBA5EF11C21AF5C00E1DF98 /* Array2D+init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA5EF01C21AF5C00E1DF98 /* Array2D+init.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -133,6 +136,9 @@
 		2C92B6D61C2309C5009A0A68 /* String+addNumeric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+addNumeric.swift"; sourceTree = "<group>"; };
 		2C92B6D91C230AC6009A0A68 /* ArrayStringLiteralConvertible+sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ArrayStringLiteralConvertible+sum.swift"; sourceTree = "<group>"; };
 		2C92B6DB1C230E6C009A0A68 /* String+subscript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+subscript.swift"; sourceTree = "<group>"; };
+		2C92B6DD1C230F70009A0A68 /* 0014.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 0014.swift; sourceTree = "<group>"; };
+		2C92B6DF1C230FCD009A0A68 /* 0014Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 0014Tests.swift; sourceTree = "<group>"; };
+		2C92B6E11C230FE2009A0A68 /* CollatzSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollatzSequence.swift; sourceTree = "<group>"; };
 		2CBA5EED1C21AF4D00E1DF98 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		2CBA5EF01C21AF5C00E1DF98 /* Array2D+init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array2D+init.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -273,6 +279,7 @@
 				2C231C921C20D3CF00718281 /* FibonacciSequence.swift */,
 				2C231C931C20D3CF00718281 /* PrimeSequence.swift */,
 				2C92B6C21C22D1CF009A0A68 /* TriangleNumbers.swift */,
+				2C92B6E11C230FE2009A0A68 /* CollatzSequence.swift */,
 			);
 			path = Sequences;
 			sourceTree = "<group>";
@@ -317,6 +324,7 @@
 				2C231CEE1C20DD6800718281 /* 0011.swift */,
 				2C92B6C01C22CE57009A0A68 /* 0012.swift */,
 				2C92B6CF1C22E61A009A0A68 /* 0013.swift */,
+				2C92B6DD1C230F70009A0A68 /* 0014.swift */,
 			);
 			path = "0011-0020";
 			sourceTree = "<group>";
@@ -327,6 +335,7 @@
 				2C231CF01C20DDF600718281 /* 0011Tests.swift */,
 				2C92B6C41C22D29D009A0A68 /* 0012Tests.swift */,
 				2C92B6D11C22E771009A0A68 /* 0013Tests.swift */,
+				2C92B6DF1C230FCD009A0A68 /* 0014Tests.swift */,
 			);
 			path = "0011-0020";
 			sourceTree = "<group>";
@@ -503,8 +512,10 @@
 				2C92B6C11C22CE57009A0A68 /* 0012.swift in Sources */,
 				2C231CD31C20D8B800718281 /* 0007.swift in Sources */,
 				2C231CA11C20D42600718281 /* Int+getPythagoreanTriplet.swift in Sources */,
+				2C92B6DE1C230F70009A0A68 /* 0014.swift in Sources */,
 				2C231CD41C20D8B800718281 /* 0008.swift in Sources */,
 				2C231C9D1C20D3CF00718281 /* PrimeSequence.swift in Sources */,
+				2C92B6E21C230FE2009A0A68 /* CollatzSequence.swift in Sources */,
 				2C231CD21C20D8B800718281 /* 0006.swift in Sources */,
 				2C92B6DA1C230AC6009A0A68 /* ArrayStringLiteralConvertible+sum.swift in Sources */,
 				2C231CCF1C20D8B800718281 /* 0003.swift in Sources */,
@@ -549,6 +560,7 @@
 				2C92B6D21C22E771009A0A68 /* 0013Tests.swift in Sources */,
 				2C231CE61C20D8C600718281 /* 0007Tests.swift in Sources */,
 				2C231CE31C20D8C600718281 /* 0004Tests.swift in Sources */,
+				2C92B6E01C230FCD009A0A68 /* 0014Tests.swift in Sources */,
 				2C231CE41C20D8C600718281 /* 0005Tests.swift in Sources */,
 				2C231CE91C20D9DA00718281 /* 0009Tests.swift in Sources */,
 				2C231CEB1C20DA3600718281 /* 0010Tests.swift in Sources */,
