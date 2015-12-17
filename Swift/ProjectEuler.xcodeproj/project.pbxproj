@@ -74,6 +74,10 @@
 		2C92B6F41C234062009A0A68 /* String+Private.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6F21C23405F009A0A68 /* String+Private.swift */; settings = {ASSET_TAGS = (); }; };
 		2C92B6F61C234087009A0A68 /* String+multiplyNumeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6F51C234087009A0A68 /* String+multiplyNumeric.swift */; settings = {ASSET_TAGS = (); }; };
 		2C92B6F81C2340AF009A0A68 /* String+raiseNumericToPower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6F71C2340AF009A0A68 /* String+raiseNumericToPower.swift */; settings = {ASSET_TAGS = (); }; };
+		2C92B6FA1C23427B009A0A68 /* Int+parseIntoWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6F91C23427B009A0A68 /* Int+parseIntoWords.swift */; settings = {ASSET_TAGS = (); }; };
+		2C92B6FC1C2344A0009A0A68 /* Int+toDigitArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6FB1C2344A0009A0A68 /* Int+toDigitArray.swift */; settings = {ASSET_TAGS = (); }; };
+		2C92B6FE1C234580009A0A68 /* 0017.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6FD1C234580009A0A68 /* 0017.swift */; settings = {ASSET_TAGS = (); }; };
+		2C92B7001C2345EA009A0A68 /* 0017Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6FF1C2345EA009A0A68 /* 0017Tests.swift */; settings = {ASSET_TAGS = (); }; };
 		2CBA5EEE1C21AF4D00E1DF98 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA5EED1C21AF4D00E1DF98 /* Array2D.swift */; settings = {ASSET_TAGS = (); }; };
 		2CBA5EF11C21AF5C00E1DF98 /* Array2D+init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA5EF01C21AF5C00E1DF98 /* Array2D+init.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -157,6 +161,10 @@
 		2C92B6F21C23405F009A0A68 /* String+Private.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Private.swift"; sourceTree = "<group>"; };
 		2C92B6F51C234087009A0A68 /* String+multiplyNumeric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+multiplyNumeric.swift"; sourceTree = "<group>"; };
 		2C92B6F71C2340AF009A0A68 /* String+raiseNumericToPower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+raiseNumericToPower.swift"; sourceTree = "<group>"; };
+		2C92B6F91C23427B009A0A68 /* Int+parseIntoWords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+parseIntoWords.swift"; sourceTree = "<group>"; };
+		2C92B6FB1C2344A0009A0A68 /* Int+toDigitArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+toDigitArray.swift"; sourceTree = "<group>"; };
+		2C92B6FD1C234580009A0A68 /* 0017.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 0017.swift; sourceTree = "<group>"; };
+		2C92B6FF1C2345EA009A0A68 /* 0017Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 0017Tests.swift; sourceTree = "<group>"; };
 		2CBA5EED1C21AF4D00E1DF98 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		2CBA5EF01C21AF5C00E1DF98 /* Array2D+init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array2D+init.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -279,6 +287,8 @@
 				2C231CA01C20D42600718281 /* Int+getPythagoreanTriplet.swift */,
 				2C92B6CB1C22E14E009A0A68 /* Int+getPrimeFactors.swift */,
 				2C92B6CD1C22E469009A0A68 /* Int+getNumberOfDivisors.swift */,
+				2C92B6F91C23427B009A0A68 /* Int+parseIntoWords.swift */,
+				2C92B6FB1C2344A0009A0A68 /* Int+toDigitArray.swift */,
 			);
 			path = Int;
 			sourceTree = "<group>";
@@ -347,6 +357,7 @@
 				2C92B6DD1C230F70009A0A68 /* 0014.swift */,
 				2C92B6E31C231B51009A0A68 /* 0015.swift */,
 				2C92B6EE1C2335E4009A0A68 /* 0016.swift */,
+				2C92B6FD1C234580009A0A68 /* 0017.swift */,
 			);
 			path = "0011-0020";
 			sourceTree = "<group>";
@@ -360,6 +371,7 @@
 				2C92B6DF1C230FCD009A0A68 /* 0014Tests.swift */,
 				2C92B6E91C233400009A0A68 /* 0015Tests.swift */,
 				2C92B6F01C233A35009A0A68 /* 0016Tests.swift */,
+				2C92B6FF1C2345EA009A0A68 /* 0017Tests.swift */,
 			);
 			path = "0011-0020";
 			sourceTree = "<group>";
@@ -571,6 +583,7 @@
 				2C231CA91C20D4DC00718281 /* ArrayIntegerType+sumOfSquares.swift in Sources */,
 				2C231CF91C20E0D400718281 /* EquatableTuples.swift in Sources */,
 				2C92B6F41C234062009A0A68 /* String+Private.swift in Sources */,
+				2C92B6FE1C234580009A0A68 /* 0017.swift in Sources */,
 				2C92B6EF1C2335E4009A0A68 /* 0016.swift in Sources */,
 				2C231CA71C20D4AC00718281 /* ArrayIntegerType+leastCommonMultiple.swift in Sources */,
 				2C231CA31C20D45600718281 /* ArrayIntegerType+sum.swift in Sources */,
@@ -585,10 +598,12 @@
 				2C92B6D71C2309C5009A0A68 /* String+addNumeric.swift in Sources */,
 				2C231C961C20D3CF00718281 /* Int+isMultipleOfAll.swift in Sources */,
 				2C231CD11C20D8B800718281 /* 0005.swift in Sources */,
+				2C92B6FA1C23427B009A0A68 /* Int+parseIntoWords.swift in Sources */,
 				2CBA5EEE1C21AF4D00E1DF98 /* Array2D.swift in Sources */,
 				2C92B6D01C22E61A009A0A68 /* 0013.swift in Sources */,
 				2C231CCD1C20D8B800718281 /* 0001.swift in Sources */,
 				2C231C9C1C20D3CF00718281 /* FibonacciSequence.swift in Sources */,
+				2C92B6FC1C2344A0009A0A68 /* Int+toDigitArray.swift in Sources */,
 				2C92B6CC1C22E14E009A0A68 /* Int+getPrimeFactors.swift in Sources */,
 				2CBA5EF11C21AF5C00E1DF98 /* Array2D+init.swift in Sources */,
 			);
@@ -611,6 +626,7 @@
 				2C231CE51C20D8C600718281 /* 0006Tests.swift in Sources */,
 				2C231CE21C20D8C600718281 /* 0003Tests.swift in Sources */,
 				2C231CE01C20D8C600718281 /* 0001Tests.swift in Sources */,
+				2C92B7001C2345EA009A0A68 /* 0017Tests.swift in Sources */,
 				2C92B6BF1C22CBA7009A0A68 /* Array2DTests.swift in Sources */,
 				2C231CF11C20DDF600718281 /* 0011Tests.swift in Sources */,
 				2C231CE11C20D8C600718281 /* 0002Tests.swift in Sources */,
