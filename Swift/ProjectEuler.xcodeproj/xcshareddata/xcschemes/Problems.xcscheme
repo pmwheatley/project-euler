@@ -37,6 +37,14 @@
                BlueprintName = "Tests"
                ReferencedContainer = "container:ProjectEuler.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "Problem0014Tests/testSampleNaive()">
+               </Test>
+               <Test
+                  Identifier = "Problem0014Tests/testSolutionNaive()">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>

@@ -69,6 +69,11 @@
 		2C92B6E61C231DD1009A0A68 /* CentralBinomialCoefficientsSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6E51C231DD1009A0A68 /* CentralBinomialCoefficientsSequence.swift */; settings = {ASSET_TAGS = (); }; };
 		2C92B6EA1C233400009A0A68 /* 0015Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6E91C233400009A0A68 /* 0015Tests.swift */; settings = {ASSET_TAGS = (); }; };
 		2C92B6ED1C23352A009A0A68 /* Double+factorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6EC1C23352A009A0A68 /* Double+factorial.swift */; settings = {ASSET_TAGS = (); }; };
+		2C92B6EF1C2335E4009A0A68 /* 0016.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6EE1C2335E4009A0A68 /* 0016.swift */; settings = {ASSET_TAGS = (); }; };
+		2C92B6F11C233A35009A0A68 /* 0016Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6F01C233A35009A0A68 /* 0016Tests.swift */; settings = {ASSET_TAGS = (); }; };
+		2C92B6F41C234062009A0A68 /* String+Private.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6F21C23405F009A0A68 /* String+Private.swift */; settings = {ASSET_TAGS = (); }; };
+		2C92B6F61C234087009A0A68 /* String+multiplyNumeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6F51C234087009A0A68 /* String+multiplyNumeric.swift */; settings = {ASSET_TAGS = (); }; };
+		2C92B6F81C2340AF009A0A68 /* String+raiseNumericToPower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92B6F71C2340AF009A0A68 /* String+raiseNumericToPower.swift */; settings = {ASSET_TAGS = (); }; };
 		2CBA5EEE1C21AF4D00E1DF98 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA5EED1C21AF4D00E1DF98 /* Array2D.swift */; settings = {ASSET_TAGS = (); }; };
 		2CBA5EF11C21AF5C00E1DF98 /* Array2D+init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA5EF01C21AF5C00E1DF98 /* Array2D+init.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -147,6 +152,11 @@
 		2C92B6E51C231DD1009A0A68 /* CentralBinomialCoefficientsSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CentralBinomialCoefficientsSequence.swift; sourceTree = "<group>"; };
 		2C92B6E91C233400009A0A68 /* 0015Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 0015Tests.swift; sourceTree = "<group>"; };
 		2C92B6EC1C23352A009A0A68 /* Double+factorial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+factorial.swift"; sourceTree = "<group>"; };
+		2C92B6EE1C2335E4009A0A68 /* 0016.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 0016.swift; sourceTree = "<group>"; };
+		2C92B6F01C233A35009A0A68 /* 0016Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 0016Tests.swift; sourceTree = "<group>"; };
+		2C92B6F21C23405F009A0A68 /* String+Private.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Private.swift"; sourceTree = "<group>"; };
+		2C92B6F51C234087009A0A68 /* String+multiplyNumeric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+multiplyNumeric.swift"; sourceTree = "<group>"; };
+		2C92B6F71C2340AF009A0A68 /* String+raiseNumericToPower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+raiseNumericToPower.swift"; sourceTree = "<group>"; };
 		2CBA5EED1C21AF4D00E1DF98 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		2CBA5EF01C21AF5C00E1DF98 /* Array2D+init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array2D+init.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -336,6 +346,7 @@
 				2C92B6CF1C22E61A009A0A68 /* 0013.swift */,
 				2C92B6DD1C230F70009A0A68 /* 0014.swift */,
 				2C92B6E31C231B51009A0A68 /* 0015.swift */,
+				2C92B6EE1C2335E4009A0A68 /* 0016.swift */,
 			);
 			path = "0011-0020";
 			sourceTree = "<group>";
@@ -348,6 +359,7 @@
 				2C92B6D11C22E771009A0A68 /* 0013Tests.swift */,
 				2C92B6DF1C230FCD009A0A68 /* 0014Tests.swift */,
 				2C92B6E91C233400009A0A68 /* 0015Tests.swift */,
+				2C92B6F01C233A35009A0A68 /* 0016Tests.swift */,
 			);
 			path = "0011-0020";
 			sourceTree = "<group>";
@@ -394,9 +406,12 @@
 		2C92B6D31C2308F7009A0A68 /* String */ = {
 			isa = PBXGroup;
 			children = (
+				2C92B6F21C23405F009A0A68 /* String+Private.swift */,
+				2C92B6DB1C230E6C009A0A68 /* String+subscript.swift */,
 				2C92B6D41C23090B009A0A68 /* String+isNumeric.swift */,
 				2C92B6D61C2309C5009A0A68 /* String+addNumeric.swift */,
-				2C92B6DB1C230E6C009A0A68 /* String+subscript.swift */,
+				2C92B6F51C234087009A0A68 /* String+multiplyNumeric.swift */,
+				2C92B6F71C2340AF009A0A68 /* String+raiseNumericToPower.swift */,
 			);
 			name = String;
 			path = Tools/Extensions/String;
@@ -533,6 +548,7 @@
 				2C231CD31C20D8B800718281 /* 0007.swift in Sources */,
 				2C231CA11C20D42600718281 /* Int+getPythagoreanTriplet.swift in Sources */,
 				2C92B6DE1C230F70009A0A68 /* 0014.swift in Sources */,
+				2C92B6F81C2340AF009A0A68 /* String+raiseNumericToPower.swift in Sources */,
 				2C231CD41C20D8B800718281 /* 0008.swift in Sources */,
 				2C231C9D1C20D3CF00718281 /* PrimeSequence.swift in Sources */,
 				2C92B6E21C230FE2009A0A68 /* CollatzSequence.swift in Sources */,
@@ -541,6 +557,7 @@
 				2C92B6DA1C230AC6009A0A68 /* ArrayStringLiteralConvertible+sum.swift in Sources */,
 				2C92B6E61C231DD1009A0A68 /* CentralBinomialCoefficientsSequence.swift in Sources */,
 				2C92B6E41C231B51009A0A68 /* 0015.swift in Sources */,
+				2C92B6F61C234087009A0A68 /* String+multiplyNumeric.swift in Sources */,
 				2C231CCF1C20D8B800718281 /* 0003.swift in Sources */,
 				2C231CAD1C20D55D00718281 /* Array+getSubArraysOfWidth.swift in Sources */,
 				2C231CD51C20D8B800718281 /* 0009.swift in Sources */,
@@ -553,6 +570,8 @@
 				2C231CAF1C20D5AD00718281 /* SequenceType+take.swift in Sources */,
 				2C231CA91C20D4DC00718281 /* ArrayIntegerType+sumOfSquares.swift in Sources */,
 				2C231CF91C20E0D400718281 /* EquatableTuples.swift in Sources */,
+				2C92B6F41C234062009A0A68 /* String+Private.swift in Sources */,
+				2C92B6EF1C2335E4009A0A68 /* 0016.swift in Sources */,
 				2C231CA71C20D4AC00718281 /* ArrayIntegerType+leastCommonMultiple.swift in Sources */,
 				2C231CA31C20D45600718281 /* ArrayIntegerType+sum.swift in Sources */,
 				2C231CD61C20D8B800718281 /* 0010.swift in Sources */,
@@ -588,6 +607,7 @@
 				2C231CE41C20D8C600718281 /* 0005Tests.swift in Sources */,
 				2C231CE91C20D9DA00718281 /* 0009Tests.swift in Sources */,
 				2C231CEB1C20DA3600718281 /* 0010Tests.swift in Sources */,
+				2C92B6F11C233A35009A0A68 /* 0016Tests.swift in Sources */,
 				2C231CE51C20D8C600718281 /* 0006Tests.swift in Sources */,
 				2C231CE21C20D8C600718281 /* 0003Tests.swift in Sources */,
 				2C231CE01C20D8C600718281 /* 0001Tests.swift in Sources */,

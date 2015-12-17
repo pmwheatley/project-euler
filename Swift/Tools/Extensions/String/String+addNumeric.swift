@@ -12,23 +12,6 @@ extension String {
     
     func addNumeric(string:String) -> String {
         
-        func addToResult(inout results:[Int], var addResult:Int, index:Int) {
-            
-            if index == results.count {
-                results.append(0)
-            }
-            
-            addResult = results[index] + addResult
-            
-            let result = addResult % 10
-            results[index] = result
-            
-            let retain = addResult / 10
-            if retain > 0 {
-                addToResult(&results, addResult: retain, index: index + 1)
-            }
-        }
-        
         if self.isNumeric() && string.isNumeric() {
         
             let leftNumbers:[Int] = Array(self.characters).reverse().map() { Int(String($0)) ?? 0 }
